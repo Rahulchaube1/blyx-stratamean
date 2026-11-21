@@ -1,0 +1,13 @@
+use stratamean;
+
+fn main() {
+    let events = [2, 6];
+    let trials = [4, 8];
+    let result = stratamean_pooled(events, trials);
+    if len(result) == 0 { println!("invalid"); return; }
+    let mut i = 0;
+    while i < len(result) {
+        println!(at(result, i));
+        i += 1;
+    }
+}
