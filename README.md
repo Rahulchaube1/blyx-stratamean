@@ -4,14 +4,14 @@
 
 Pool event counts and expose the crude observed rate. This Blyx library is part of the probability and causal analysis collection.
 
-A change in the mix of observed groups can move the pooled rate. Recalculate rates against fixed reference weights before comparing populations. [CDC, direct age adjustment](https://www.cdc.gov/nchs/hus/sources-definitions/age-adjustment.htm)
+A change in the mix of observed groups can move the pooled rate. Recalculate rates against fixed reference weights before comparing populations. [NCI SEER, direct age adjustment](https://seer.cancer.gov/seerstat/tutorials/aarates/definition.html)
 
 ## Install and run
 
 Install [Blyx 0.2.1](https://www.blyx-lang.space/download) with a Rust toolchain and host linker for native builds.
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Rahulchaube1/blyx-stratamean.git
+git clone --depth 1 --branch v0.1.1 https://github.com/Rahulchaube1/blyx-stratamean.git
 cd blyx-stratamean
 blyxc native-run example.blyx
 blyxc native-run tests.blyx
@@ -24,7 +24,7 @@ blyxc native-run tests.blyx
 Run this in the directory containing your application's entry file.
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Rahulchaube1/blyx-stratamean.git vendor/stratamean
+git clone --depth 1 --branch v0.1.1 https://github.com/Rahulchaube1/blyx-stratamean.git vendor/stratamean
 ```
 
 ```blyx
